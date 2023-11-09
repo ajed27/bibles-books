@@ -1,0 +1,13 @@
+<div class="my-8 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8 mx-16">
+  <div *ngFor="let item of books" class="card rounded-lg bg-amber-100 shadow-lg shadow-slate-900 border-2 border-primary hover:scale-105 transition-all">
+    <div class="card-body mb-3 items-center text-amber-950 text-center">
+      <img src="{{root}}{{item.id}}.png" class="rounded-lg" alt="{{item.id}}.png">
+      <h2 class="card-title text-lg">{{item.name}}</h2>
+      <p class="text-sm">{{item.description}}</p>
+      <br>
+      <div class="card-actions">
+        <button [routerLink]="['/bible/', item.id]" class="btn rounded-md p-2 border-primary btn-warning border-2 text-amber-200 text-sm bg-emerald-900  hover:scale-110 hover:text-amber-950 transition-all">Leer más</button>
+      </div>
+    </div>
+  </div>
+</div>
