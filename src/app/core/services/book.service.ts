@@ -618,7 +618,7 @@ export class BookService {
       id: 51,
       name: 'Colosenses',
       author: 'Pablo',
-      description: 'La historia de Israel entrando en Canáan y Moisés a punto de morir, dando los últimos consejos',
+      description: '',
       capsCount: 4,
       versCount: 95,
       url: ['https://www.youtube.com/embed/AG4jqCUapng'],
