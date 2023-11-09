@@ -72,7 +72,7 @@ export class BookService {
       url: ['https://www.youtube.com/embed/qfMplfJoYA0'],
       characters: [this.characters[0]],
       dateAprox: 'Alrededor de 1400 a.C.',
-      historicalContext: 'Ley'
+      historicalContext: ''
     },
     {
       id: 6,
@@ -84,7 +84,7 @@ export class BookService {
       url: ['https://www.youtube.com/embed/49ggVrdBN_Y'],
       characters: [this.characters[0]],
       dateAprox: 'Entre 1400 - 1375 a.C.',
-      historicalContext: 'Ley'
+      historicalContext: ''
     },
     {
       id: 7,
@@ -96,7 +96,7 @@ export class BookService {
       url: ['https://www.youtube.com/embed/bCwaJz4L2nU'],
       characters: [this.characters[0]],
       dateAprox: 'Entre 1050 - 1000 a.C.',
-      historicalContext: 'Ley'
+      historicalContext: ''
     },
     {
       id: 8,
@@ -108,7 +108,7 @@ export class BookService {
       url: ['https://www.youtube.com/embed/f984fG4-xlE'],
       characters: [this.characters[0]],
       dateAprox: 'Entre 1050 - 500 a.C.',
-      historicalContext: 'Ley'
+      historicalContext: ''
     },
     {
       id: 9,
@@ -120,7 +120,7 @@ export class BookService {
       url: ['https://www.youtube.com/embed/34biq4ivs5I'],
       characters: [this.characters[0]],
       dateAprox: 'Entre 931 - 722 a.C.',
-      historicalContext: 'Ley'
+      historicalContext: ''
     },
     {
       id: 10,
@@ -132,7 +132,7 @@ export class BookService {
       url: ['https://www.youtube.com/embed/BEvicPpjQBE'],
       characters: [this.characters[0]],
       dateAprox: 'Entre 931 - 722 a.C.',
-      historicalContext: 'Ley'
+      historicalContext: ''
     },
     {
       id: 11,
@@ -144,7 +144,7 @@ export class BookService {
       url: ['https://www.youtube.com/embed/8V-TefJJc0g'],
       characters: [this.characters[0]],
       dateAprox: 'Entre 560 - 538 a.C.',
-      historicalContext: 'Ley'
+      historicalContext: ''
     },
     {
       id: 12,
@@ -156,7 +156,7 @@ export class BookService {
       url: ['https://www.youtube.com/embed/8V-TefJJc0g'],
       characters: [this.characters[0]],
       dateAprox: 'Entre 560 - 538 a.C.',
-      historicalContext: 'Ley'
+      historicalContext: ''
     },
     {
       id: 13,
@@ -168,7 +168,7 @@ export class BookService {
       url: ['https://www.youtube.com/embed/lMj--4fDpvc'],
       characters: [this.characters[0]],
       dateAprox: 'Entre 425 - 400 a.C.',
-      historicalContext: 'Ley'
+      historicalContext: ''
     },
     {
       id: 14,
@@ -180,7 +180,7 @@ export class BookService {
       url: ['https://www.youtube.com/embed/lMj--4fDpvc'],
       characters: [this.characters[0]],
       dateAprox: 'Entre 425 - 400 a.C.',
-      historicalContext: 'Ley'
+      historicalContext: ''
     },
     {
       id: 15,
@@ -192,7 +192,7 @@ export class BookService {
       url: ['https://www.youtube.com/embed/OGdiLZ92nQs'],
       characters: [this.characters[0]],
       dateAprox: 'Entre 425 - 400 a.C.',
-      historicalContext: 'Ley'
+      historicalContext: ''
     },
     {
       id: 16,
@@ -204,163 +204,163 @@ export class BookService {
       url: ['https://www.youtube.com/embed/OGdiLZ92nQs'],
       characters: [this.characters[0]],
       dateAprox: 'Entre 445 - 420 a.C.',
-      historicalContext: 'Ley'
+      historicalContext: ''
     },
     {
       id: 17,
       name: 'Ester',
-      author: 'Moisés',
-      description: 'La historia de Israel entrando en Canáan y Moisés a punto de morir, dando los últimos consejos',
+      author: '',
+      description: '',
       capsCount: 10,
       versCount: 167,
       url: ['https://www.youtube.com/embed/0NzTOuBKAcI'],
       characters: [this.characters[0]],
       dateAprox: 'Entre 465 - 400 a.C.',
-      historicalContext: 'Ley'
+      historicalContext: ''
     },
     {
       id: 18,
       name: 'Job',
-      author: 'Moisés',
-      description: 'La historia de Israel entrando en Canáan y Moisés a punto de morir, dando los últimos consejos',
+      author: '',
+      description: '',
       capsCount: 42,
       versCount: 1070,
       url: ['https://www.youtube.com/embed/A3ifTHYTmMQ'],
       characters: [this.characters[0]],
-      dateAprox: 'Alrededor de 1400 a.C.',
+      dateAprox: '',
       historicalContext: 'Ley'
     },
     {
       id: 19,
       name: 'Salmos',
-      author: 'Moisés',
-      description: 'La historia de Israel entrando en Canáan y Moisés a punto de morir, dando los últimos consejos',
+      author: '',
+      description: '',
       capsCount: 150,
       versCount: 2525,
       url: ['https://www.youtube.com/embed/8yieTfiw_Ew'],
       characters: [this.characters[0]],
-      dateAprox: 'Alrededor de 1400 a.C.',
-      historicalContext: 'Ley'
+      dateAprox: '',
+      historicalContext: ''
     },
     {
       id: 20,
       name: 'Proverbios',
-      author: 'Moisés',
-      description: 'La historia de Israel entrando en Canáan y Moisés a punto de morir, dando los últimos consejos',
+      author: 'Salomón',
+      description: '',
       capsCount: 31,
       versCount: 915,
       url: ['https://www.youtube.com/embed/pNjt_NfIam8'],
       characters: [this.characters[0]],
-      dateAprox: 'Alrededor de 1400 a.C.',
-      historicalContext: 'Ley'
+      dateAprox: '',
+      historicalContext: ''
     },
     {
       id: 21,
       name: 'Eclesiastés',
-      author: 'Moisés',
-      description: 'Primer libro de la Biblia',
+      author: 'Salomón',
+      description: '',
       capsCount: 12,
       versCount: 222,
       url: ['https://www.youtube.com/embed/X4Brf1Z8N4E'],
       characters: [this.characters[0]],
-      dateAprox: 'Alrededor de 1440 a.C.',
-      historicalContext: 'Moises dando al pueblo'
+      dateAprox: '',
+      historicalContext: ''
     },
     {
       id: 22,
       name: 'Cantares',
-      author: 'Moisés',
-      description: 'Historia de la liberación y travesia de Israel desde Egipto a Sinaí',
+      author: 'Salomón',
+      description: '',
       capsCount: 8,
       versCount: 117,
       url: ['https://www.youtube.com/embed/JeTxGCZH99o'],
       characters: [this.characters[0]],
-      dateAprox: 'Alrededor de 1400 a.C.',
-      historicalContext: 'Viaje de Moises con el pueblo'
+      dateAprox: '',
+      historicalContext: ''
     },
     {
       id: 23,
       name: 'Isaías',
-      author: 'Moisés',
-      description: 'Ley para el pueblo de Israel',
+      author: 'Parte Isaías y parte un profecta posterior',
+      description: '',
       capsCount: 62,
       versCount: 1292,
       url: ['https://www.youtube.com/embed/9lWr9EZchWg', 'https://youtube.com/embed/s-K5s7YpUC8'],
       characters: [this.characters[0]],
-      dateAprox: 'Alrededor de 1445 a.C.',
-      historicalContext: 'Ley'
+      dateAprox: '',
+      historicalContext: ''
     },
     {
       id: 24,
       name: 'Jeremías',
-      author: 'Moisés',
-      description: 'La historia de Israel en el Sinaí, hasta frente al Jordan',
+      author: 'Jeremías',
+      description: '',
       capsCount: 52,
       versCount: 1364,
       url: ['https://www.youtube.com/embed/_Nf4IcDuyTc'],
       characters: [this.characters[0]],
-      dateAprox: 'Alrededor de 1400 a.C.',
-      historicalContext: 'Ley'
+      dateAprox: '',
+      historicalContext: ''
     },
     {
       id: 25,
       name: 'Lamentaciones',
-      author: 'Moisés',
-      description: 'La historia de Israel entrando en Canáan y Moisés a punto de morir, dando los últimos consejos',
+      author: 'Jeremías',
+      description: '',
       capsCount: 5,
       versCount: 154,
       url: ['https://www.youtube.com/embed/CWgafyPYpAU'],
       characters: [this.characters[0]],
-      dateAprox: 'Alrededor de 1400 a.C.',
-      historicalContext: 'Ley'
+      dateAprox: '',
+      historicalContext: ''
     },
     {
       id: 26,
       name: 'Ezequiel',
-      author: 'Moisés',
-      description: 'La historia de Israel entrando en Canáan y Moisés a punto de morir, dando los últimos consejos',
+      author: 'Ezequiel',
+      description: '',
       capsCount: 48,
       versCount: 1273,
       url: ['https://www.youtube.com/embed.be/_XqV69VU3o0'],
       characters: [this.characters[0]],
-      dateAprox: 'Alrededor de 1400 a.C.',
-      historicalContext: 'Ley'
+      dateAprox: '',
+      historicalContext: ''
     },
     {
       id: 27,
       name: 'Daniel',
-      author: 'Moisés',
-      description: 'La historia de Israel entrando en Canáan y Moisés a punto de morir, dando los últimos consejos',
+      author: 'Daniel',
+      description: '',
       capsCount: 12,
       versCount: 358,
       url: ['https://www.youtube.com/embed/yBO4FjCebrI'],
       characters: [this.characters[0]],
-      dateAprox: 'Alrededor de 1400 a.C.',
-      historicalContext: 'Ley'
+      dateAprox: '',
+      historicalContext: ''
     },
     {
       id: 28,
       name: 'Oseas',
-      author: 'Moisés',
-      description: 'La historia de Israel entrando en Canáan y Moisés a punto de morir, dando los últimos consejos',
+      author: 'Oseas',
+      description: '',
       capsCount: 14,
       versCount: 197,
       url: ['https://www.youtube.com/embed/f81QQCnEOT4'],
       characters: [this.characters[0]],
-      dateAprox: 'Alrededor de 1400 a.C.',
-      historicalContext: 'Ley'
+      dateAprox: '',
+      historicalContext: ''
     },
     {
       id: 29,
       name: 'Joel',
-      author: 'Moisés',
-      description: 'La historia de Israel entrando en Canáan y Moisés a punto de morir, dando los últimos consejos',
+      author: 'Joel',
+      description: '',
       capsCount: 3,
       versCount: 73,
       url: ['https://www.youtube.com/embed/lcUo6mIBx1E'],
       characters: [this.characters[0]],
-      dateAprox: 'Alrededor de 1400 a.C.',
-      historicalContext: 'Ley'
+      dateAprox: '',
+      historicalContext: ''
     },
     {
       id: 30,
@@ -437,374 +437,374 @@ export class BookService {
     {
       id: 36,
       name: 'Sofonías',
-      author: 'Moisés',
-      description: 'La historia de Israel entrando en Canáan y Moisés a punto de morir, dando los últimos consejos',
+      author: 'Sofonías',
+      description: '',
       capsCount: 3,
       versCount: 53,
       url: ['https://www.youtube.com/embed/I9KvC0w1plE'],
       characters: [this.characters[0]],
-      dateAprox: 'Alrededor de 1400 a.C.',
-      historicalContext: 'Ley'
+      dateAprox: '',
+      historicalContext: ''
     },
     {
       id: 37,
       name: 'Hageo',
-      author: 'Moisés',
-      description: 'La historia de Israel entrando en Canáan y Moisés a punto de morir, dando los últimos consejos',
+      author: 'Hageo',
+      description: '',
       capsCount: 2,
       versCount: 38,
       url: ['https://www.youtube.com/embed/kPOORNkv4AA'],
       characters: [this.characters[0]],
-      dateAprox: 'Alrededor de 1400 a.C.',
-      historicalContext: 'Ley'
+      dateAprox: '',
+      historicalContext: ''
     },
     {
       id: 38,
       name: 'Zacarías',
-      author: 'Moisés',
-      description: 'La historia de Israel entrando en Canáan y Moisés a punto de morir, dando los últimos consejos',
+      author: 'Zacarías',
+      description: '',
       capsCount: 14,
       versCount: 211,
       url: ['https://www.youtube.com/embed/pYh4r4bNruQ'],
       characters: [this.characters[0]],
-      dateAprox: 'Alrededor de 1400 a.C.',
-      historicalContext: 'Ley'
+      dateAprox: '',
+      historicalContext: ''
     },
     {
       id: 39,
       name: 'Malaquías',
-      author: 'Moisés',
-      description: 'La historia de Israel entrando en Canáan y Moisés a punto de morir, dando los últimos consejos',
+      author: 'Malaquías',
+      description: '',
       capsCount: 4,
       versCount: 55,
       url: ['https://www.youtube.com/embed/8ZMSBFH-8QM'],
       characters: [this.characters[0]],
-      dateAprox: 'Alrededor de 1400 a.C.',
-      historicalContext: 'Ley'
+      dateAprox: '',
+      historicalContext: ''
     },
     {
       id: 40,
       name: 'Mateo',
-      author: 'Moisés',
-      description: 'La historia de Israel entrando en Canáan y Moisés a punto de morir, dando los últimos consejos',
+      author: 'Mateo',
+      description: '',
       capsCount: 28,
       versCount: 1071,
       url: ['https://www.youtube.com/embed/3jUPGTb80ms', 'https://youtu.be/EobkNEf-ySA'],
       characters: [this.characters[0]],
-      dateAprox: 'Alrededor de 1400 a.C.',
-      historicalContext: 'Ley'
+      dateAprox: '',
+      historicalContext: ''
     },
     {
       id: 41,
       name: 'Marcos',
-      author: 'Moisés',
-      description: 'Primer libro de la Biblia',
+      author: 'Marcos',
+      description: '',
       capsCount: 16,
       versCount: 678,
       url: ['https://www.youtube.com/embed/gsXLQkppzUc'],
       characters: [this.characters[0]],
-      dateAprox: 'Alrededor de 1440 a.C.',
-      historicalContext: 'Moises dando al pueblo'
+      dateAprox: '',
+      historicalContext: ''
     },
     {
       id: 42,
       name: 'Lucas',
-      author: 'Moisés',
-      description: 'Historia de la liberación y travesia de Israel desde Egipto a Sinaí',
+      author: 'Lucas',
+      description: '',
       capsCount: 24,
       versCount: 1151,
       url: ['https://www.youtube.com/embed/bPzhlL9zKmg', 'https://youtu.be/CxiSs-SHTuI'],
       characters: [this.characters[0]],
-      dateAprox: 'Alrededor de 1400 a.C.',
-      historicalContext: 'Viaje de Moises con el pueblo'
+      dateAprox: '',
+      historicalContext: ''
     },
     {
       id: 43,
       name: 'Juan',
-      author: 'Moisés',
-      description: 'Ley para el pueblo de Israel',
+      author: 'Juan',
+      description: '',
       capsCount: 21,
       versCount: 879,
       url: ['https://www.youtube.com/embed/OU16-2Sg_CQ', 'https://www.youtube.com/embed/NUW1Frg8DA0'],
       characters: [this.characters[0]],
-      dateAprox: 'Alrededor de 1445 a.C.',
-      historicalContext: 'Ley'
+      dateAprox: '',
+      historicalContext: ''
     },
     {
       id: 44,
       name: 'Hechos',
-      author: 'Moisés',
-      description: 'La historia de Israel en el Sinaí, hasta frente al Jordan',
+      author: 'Lucas',
+      description: '',
       capsCount: 28,
       versCount: 1007,
       url: ['https://www.youtube.com/embed/5h7Q0EK-m8I', 'https://www.youtube.com/embed/ZKaaHQUdVCY'],
       characters: [this.characters[0]],
-      dateAprox: 'Alrededor de 1400 a.C.',
-      historicalContext: 'Ley'
+      dateAprox: '',
+      historicalContext: ''
     },
     {
       id: 45,
       name: 'Romanos',
-      author: 'Moisés',
-      description: 'La historia de Israel entrando en Canáan y Moisés a punto de morir, dando los últimos consejos',
+      author: 'Pablo',
+      description: '',
       capsCount: 16,
       versCount: 433,
       url: ['https://www.youtube.com/embed/0tco1rQGC1o', 'https://www.youtube.com/embed/ZqScL0dHLsM'],
       characters: [this.characters[0]],
-      dateAprox: 'Alrededor de 1400 a.C.',
-      historicalContext: 'Ley'
+      dateAprox: '',
+      historicalContext: ''
     },
     {
       id: 46,
       name: '1 Corintios',
-      author: 'Moisés',
-      description: 'La historia de Israel entrando en Canáan y Moisés a punto de morir, dando los últimos consejos',
+      author: 'Pablo',
+      description: '',
       capsCount: 16,
       versCount: 437,
       url: ['https://www.youtube.com/embed/6f0kym4bUmE'],
       characters: [this.characters[0]],
-      dateAprox: 'Alrededor de 1400 a.C.',
-      historicalContext: 'Ley'
+      dateAprox: '',
+      historicalContext: ''
     },
     {
       id: 47,
       name: '2 Corintios',
-      author: 'Moisés',
-      description: 'La historia de Israel entrando en Canáan y Moisés a punto de morir, dando los últimos consejos',
+      author: 'Pablo',
+      description: '',
       capsCount: 13,
       versCount: 256,
       url: ['https://www.youtube.com/embed/jV7dTkYFym4'],
       characters: [this.characters[0]],
-      dateAprox: 'Alrededor de 1400 a.C.',
-      historicalContext: 'Ley'
+      dateAprox: '',
+      historicalContext: ''
     },
     {
       id: 48,
       name: 'Gálatas',
-      author: 'Moisés',
-      description: 'La historia de Israel entrando en Canáan y Moisés a punto de morir, dando los últimos consejos',
+      author: 'Pablo',
+      description: '',
       capsCount: 6,
       versCount: 149,
       url: ['https://www.youtube.com/embed/kMJLgLOWb3I'],
       characters: [this.characters[0]],
-      dateAprox: 'Alrededor de 1400 a.C.',
-      historicalContext: 'Ley'
+      dateAprox: '',
+      historicalContext: ''
     },
     {
       id: 49,
       name: 'Efesios',
-      author: 'Moisés',
-      description: 'La historia de Israel entrando en Canáan y Moisés a punto de morir, dando los últimos consejos',
+      author: 'Pablo',
+      description: '',
       capsCount: 6,
       versCount: 155,
       url: ['https://www.youtube.com/embed/yJgym5MGzM4'],
       characters: [this.characters[0]],
-      dateAprox: 'Alrededor de 1400 a.C.',
-      historicalContext: 'Ley'
+      dateAprox: '',
+      historicalContext: ''
     },
     {
       id: 50,
       name: 'Filipenses',
-      author: 'Moisés',
-      description: 'La historia de Israel entrando en Canáan y Moisés a punto de morir, dando los últimos consejos',
+      author: 'Pablo',
+      description: '',
       capsCount: 4,
       versCount: 104,
       url: ['https://www.youtube.com/embed/gks8CQX5mwQ'],
       characters: [this.characters[0]],
-      dateAprox: 'Alrededor de 1400 a.C.',
-      historicalContext: 'Ley'
+      dateAprox: '',
+      historicalContext: ''
     },
     {
       id: 51,
       name: 'Colosenses',
-      author: 'Moisés',
+      author: 'Pablo',
       description: 'La historia de Israel entrando en Canáan y Moisés a punto de morir, dando los últimos consejos',
       capsCount: 4,
       versCount: 95,
       url: ['https://www.youtube.com/embed/AG4jqCUapng'],
       characters: [this.characters[0]],
-      dateAprox: 'Alrededor de 1400 a.C.',
-      historicalContext: 'Ley'
+      dateAprox: '',
+      historicalContext: ''
     },
     {
       id: 52,
       name: '1 Tesalonicenses',
-      author: 'Moisés',
-      description: 'La historia de Israel entrando en Canáan y Moisés a punto de morir, dando los últimos consejos',
+      author: 'Pablo',
+      description: '',
       capsCount: 5,
       versCount: 89,
       url: ['https://www.youtube.com/embed/_7N4vdUUK2w'],
       characters: [this.characters[0]],
-      dateAprox: 'Alrededor de 1400 a.C.',
-      historicalContext: 'Ley'
+      dateAprox: '',
+      historicalContext: ''
     },
     {
       id: 53,
       name: '2 Tesalonicenses',
-      author: 'Moisés',
-      description: 'La historia de Israel entrando en Canáan y Moisés a punto de morir, dando los últimos consejos',
+      author: 'Pablo',
+      description: '',
       capsCount: 3,
       versCount: 47,
       url: ['https://www.youtube.com/embed/YXBzJlvH6l4'],
       characters: [this.characters[0]],
-      dateAprox: 'Alrededor de 1400 a.C.',
-      historicalContext: 'Ley'
+      dateAprox: '',
+      historicalContext: ''
     },
     {
       id: 54,
       name: '1 Timoteo',
-      author: 'Moisés',
-      description: 'La historia de Israel entrando en Canáan y Moisés a punto de morir, dando los últimos consejos',
+      author: 'Pablo',
+      description: '',
       capsCount: 6,
       versCount: 113,
       url: ['https://www.youtube.com/embed/K5xCbQcSsOE'],
       characters: [this.characters[0]],
-      dateAprox: 'Alrededor de 1400 a.C.',
-      historicalContext: 'Ley'
+      dateAprox: '',
+      historicalContext: ''
     },
     {
       id: 55,
       name: '2 Timoteo',
-      author: 'Moisés',
-      description: 'La historia de Israel entrando en Canáan y Moisés a punto de morir, dando los últimos consejos',
+      author: 'Pablo',
+      description: '',
       capsCount: 4,
       versCount: 83,
       url: ['https://www.youtube.com/embed/lvNqjbjTytE'],
       characters: [this.characters[0]],
-      dateAprox: 'Alrededor de 1400 a.C.',
-      historicalContext: 'Ley'
+      dateAprox: '',
+      historicalContext: ''
     },
     {
       id: 56,
       name: 'Tito',
-      author: 'Moisés',
-      description: 'La historia de Israel entrando en Canáan y Moisés a punto de morir, dando los últimos consejos',
+      author: 'Pablo',
+      description: '',
       capsCount: 3,
       versCount: 46,
       url: ['https://www.youtube.com/embed/SuJmsIu_1-M'],
       characters: [this.characters[0]],
-      dateAprox: 'Alrededor de 1400 a.C.',
-      historicalContext: 'Ley'
+      dateAprox: '',
+      historicalContext: ''
     },
     {
       id: 57,
       name: 'Filemón',
-      author: 'Moisés',
-      description: 'La historia de Israel entrando en Canáan y Moisés a punto de morir, dando los últimos consejos',
+      author: 'Pablo',
+      description: '',
       capsCount: 1,
       versCount: 25,
       url: ['https://www.youtube.com/embed/wNySA_IEHbM'],
       characters: [this.characters[0]],
-      dateAprox: 'Alrededor de 1400 a.C.',
-      historicalContext: 'Ley'
+      dateAprox: '',
+      historicalContext: ''
     },
     {
       id: 58,
       name: 'Hebreos',
-      author: 'Moisés',
-      description: 'La historia de Israel entrando en Canáan y Moisés a punto de morir, dando los últimos consejos',
+      author: '',
+      description: '',
       capsCount: 13,
       versCount: 303,
       url: ['https://www.youtube.com/embed/VqVAOqyoKCs'],
       characters: [this.characters[0]],
-      dateAprox: 'Alrededor de 1400 a.C.',
-      historicalContext: 'Ley'
+      dateAprox: '',
+      historicalContext: ''
     },
     {
       id: 59,
       name: 'Santiago',
-      author: 'Moisés',
-      description: 'La historia de Israel entrando en Canáan y Moisés a punto de morir, dando los últimos consejos',
+      author: 'Santiago',
+      description: '',
       capsCount: 5,
       versCount: 108,
       url: ['https://www.youtube.com/embed/yDqK_U-ipfc'],
       characters: [this.characters[0]],
-      dateAprox: 'Alrededor de 1400 a.C.',
-      historicalContext: 'Ley'
+      dateAprox: '',
+      historicalContext: ''
     },
     {
       id: 60,
       name: '1 Pedro',
-      author: 'Moisés',
-      description: 'La historia de Israel entrando en Canáan y Moisés a punto de morir, dando los últimos consejos',
+      author: '',
+      description: '',
       capsCount: 5,
       versCount: 105,
       url: ['https://www.youtube.com/embed/NXRkCxeO-C4'],
       characters: [this.characters[0]],
-      dateAprox: 'Alrededor de 1400 a.C.',
-      historicalContext: 'Ley'
+      dateAprox: '',
+      historicalContext: ''
     },
     {
       id: 61,
       name: '2 Pedro',
-      author: 'Moisés',
-      description: 'La historia de Israel entrando en Canáan y Moisés a punto de morir, dando los últimos consejos',
+      author: '',
+      description: '',
       capsCount: 3,
       versCount: 61,
       url: ['https://www.youtube.com/embed/0RJLecW7F08'],
       characters: [this.characters[0]],
-      dateAprox: 'Alrededor de 1400 a.C.',
-      historicalContext: 'Ley'
+      dateAprox: '',
+      historicalContext: ''
     },
     {
       id: 62,
       name: '1 Juan',
-      author: 'Moisés',
-      description: 'La historia de Israel entrando en Canáan y Moisés a punto de morir, dando los últimos consejos',
+      author: 'Juan',
+      description: '',
       capsCount: 5,
       versCount: 105,
       url: ['https://www.youtube.com/embed/wQtMnuBzb4c'],
       characters: [this.characters[0]],
-      dateAprox: 'Alrededor de 1400 a.C.',
-      historicalContext: 'Ley'
+      dateAprox: '',
+      historicalContext: ''
     },
     {
       id: 63,
       name: '2 Juan',
-      author: 'Moisés',
-      description: 'La historia de Israel entrando en Canáan y Moisés a punto de morir, dando los últimos consejos',
+      author: 'Juan',
+      description: '',
       capsCount: 1,
       versCount: 13,
       url: ['https://www.youtube.com/embed/wQtMnuBzb4c'],
       characters: [this.characters[0]],
-      dateAprox: 'Alrededor de 1400 a.C.',
-      historicalContext: 'Ley'
+      dateAprox: '',
+      historicalContext: ''
     },
     {
       id: 64,
       name: '3 Juan',
-      author: 'Moisés',
-      description: 'La historia de Israel entrando en Canáan y Moisés a punto de morir, dando los últimos consejos',
+      author: 'Juan',
+      description: '',
       capsCount: 1,
       versCount: 15,
       url: ['https://www.youtube.com/embed/wQtMnuBzb4c'],
       characters: [this.characters[0]],
-      dateAprox: 'Alrededor de 1400 a.C.',
-      historicalContext: 'Ley'
+      dateAprox: '',
+      historicalContext: ''
     },
     {
       id: 65,
       name: 'Judas',
-      author: 'Moisés',
-      description: 'La historia de Israel entrando en Canáan y Moisés a punto de morir, dando los últimos consejos',
+      author: 'Judas',
+      description: '',
       capsCount: 1,
       versCount: 25,
       url: ['https://www.youtube.com/embed/vhPyNSJiRZ8'],
       characters: [this.characters[0]],
-      dateAprox: 'Alrededor de 1400 a.C.',
-      historicalContext: 'Ley'
+      dateAprox: '',
+      historicalContext: ''
     },
     {
       id: 66,
       name: 'Apocalipsis',
-      author: 'Moisés',
-      description: 'La historia de Israel entrando en Canáan y Moisés a punto de morir, dando los últimos consejos',
+      author: 'Juan',
+      description: '',
       capsCount: 22,
       versCount: 404,
       url: ['https://www.youtube.com/embed/PgV57gK-Xow', 'https://youtu.be/DMXA-GERRzY'],
       characters: [this.characters[0]],
-      dateAprox: 'Alrededor de 1400 a.C.',
-      historicalContext: 'Ley'
+      dateAprox: '',
+      historicalContext: ''
     }
   ]
 
