@@ -1,6 +1,6 @@
-<div class="my-10 mx-28 grid grid-cols-1 gap-14 md:grid-cols-3 lg:grid-cols-5 xl:gap-x-8">
+<div class="my-10 mx-28 grid grid-cols-1 gap-14 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:gap-x-8">
   <div *ngFor="let item of categories">
-    <div class="w-56 text-center h-20">
+    <div class="text-center h-20">
       <img src="{{folder}}.png" (click)="openDialog(item.id)" class=" mx-auto cursor-pointer h-16 w-16" alt="{{item.category}}">
       <p class="text-primary" style="word-wrap:break-word;">{{item.category}}</p>
     </div>
