@@ -1,6 +1,7 @@
 import { Component, Inject, inject } from '@angular/core';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 import { DomSanitizer } from '@angular/platform-browser';
+import { pdfDefaultOptions } from 'ngx-extended-pdf-viewer'
 
 @Component({
   selector: 'app-document-modal',
@@ -13,14 +14,10 @@ export class DocumentModalComponent {
   constructor(
     public dialogRef: MatDialogRef<DocumentModalComponent>,
     @Inject(MAT_DIALOG_DATA) public pathDoc: string,
-  ) {}
+  ) {pdfDefaultOptions.assetsFolder = 'bleeding-edge';}
 
   convertUrlSafe(){
     const pdfUrl = this.sanitizer.bypassSecurityTrustResourceUrl(this.pathDoc);
     return pdfUrl;
-  }
-
-  close(){
-    this.dialogRef.close();
   }
 }

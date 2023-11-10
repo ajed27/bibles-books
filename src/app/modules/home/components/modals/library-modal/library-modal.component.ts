@@ -21,15 +21,11 @@ export class LibraryModalComponent {
     @Inject(MAT_DIALOG_DATA) public idCategory: number,
   ) {}
 
-  onNoClick(): void {
-    this.dialogRef.close();
-  }
-
   openDoc(path: string): void{
     this.modal.open(DocumentModalComponent, {
       data: path,
-      height: '500px',
-      width: '900px',
+      width: "100%",
+      height: "75%",
       closeOnNavigation: true
     });
   }

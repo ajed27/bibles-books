@@ -13,7 +13,7 @@
 </div>
 <div mat-dialog-actions class="bg-current">
   <div class="flex flex-row gap-10 mx-auto">
-    <button class="btn btn-secondary" (click)="onNoClick()">Salir</button>
+    <button [mat-dialog-close]="true" class="btn btn-secondary">Salir</button>
 
     <button class="btn btn-primary" cdkFocusInitial>Descargar</button>
   </div>

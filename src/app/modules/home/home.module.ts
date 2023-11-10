@@ -11,6 +11,8 @@ import { LibraryComponent } from './pages/library/library.component';
 import { LibraryModalComponent } from './components/modals/library-modal/library-modal.component';
 import { MatDialogModule } from '@angular/material/dialog';
 import { DocumentModalComponent } from './components/modals/document-modal/document-modal.component';
+import { PdfViewerModule } from 'ng2-pdf-viewer';
+import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
 
 
 @NgModule({
@@ -27,7 +29,9 @@ import { DocumentModalComponent } from './components/modals/document-modal/docum
   imports: [
     CommonModule,
     HomeRoutingModule,
-    MatDialogModule
+    MatDialogModule,
+    PdfViewerModule,
+    NgxExtendedPdfViewerModule,
   ]
 })
 export class HomeModule { }

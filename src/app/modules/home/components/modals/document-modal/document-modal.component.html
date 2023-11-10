@@ -1,1 +1,16 @@
-<embed mat-dialog-content type="application/pdf" class="w-full h-full" [src]="convertUrlSafe()"/> 
+<div mat-dialog-actions class="bg-current">
+  <div class="flex flex-row gap-10 mx-auto">
+    <button [mat-dialog-close]="true" class="btn btn-secondary">Salir</button>
+
+    <button class="btn btn-primary" cdkFocusInitial>Descargar</button>
+  </div>
+</div>
+<pdf-viewer mat-dialog-content [src]="pathDoc"
+              [render-text]="true"
+              [original-size]="false"
+              [autoresize]="true"
+              [show-all]="true"
+              [show-borders]="false"
+              [zoom]="1"   
+              class="h-full w-full">
+</pdf-viewer>
