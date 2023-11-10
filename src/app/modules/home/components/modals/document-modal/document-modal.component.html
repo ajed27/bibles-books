@@ -5,12 +5,21 @@
     <button class="btn btn-primary" cdkFocusInitial>Descargar</button>
   </div>
 </div>
-<pdf-viewer mat-dialog-content [src]="pathDoc"
-              [render-text]="true"
-              [original-size]="false"
-              [autoresize]="true"
-              [show-all]="true"
-              [show-borders]="false"
-              [zoom]="1"   
-              class="h-full w-full">
-</pdf-viewer>
+<div mat-dialog-content class="h-full w-full overflow-hidden">
+  <pdf-viewer [src]="pathDoc"
+                [render-text]="true"
+                [original-size]="false"
+                [autoresize]="true"
+                [show-all]="true"
+                [show-borders]="true"
+                [zoom]="zoomCount"
+                [ngClass]="'h-full w-full'"
+                style="overflow: hidden;">
+  </pdf-viewer>
+</div>
+<div mat-dialog-actions class="bg-current btm-nav">
+  <div class="flex flex-row">
+    <button (click)="manageZoom(1)" class="border rounded border-primary text-primary h-7 w-7">+</button>
+    <button (click)="manageZoom(2)" class="border rounded border-primary text-primary h-7 w-7">-</button>
+  </div>
+</div>

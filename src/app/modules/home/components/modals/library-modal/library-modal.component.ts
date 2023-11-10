@@ -25,8 +25,8 @@ export class LibraryModalComponent {
     this.modal.open(DocumentModalComponent, {
       data: path,
       width: "100%",
-      height: "75%",
-      closeOnNavigation: true
+      height: "83%",
+      backdropClass: "overscroll-y-none"
     });
   }
 

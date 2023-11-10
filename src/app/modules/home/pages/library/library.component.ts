@@ -22,7 +22,6 @@ export class LibraryComponent {
     
 
     dialogRef.afterClosed().subscribe(result => {
-      console.log("Hello");
       console.log(result);
     });
   }

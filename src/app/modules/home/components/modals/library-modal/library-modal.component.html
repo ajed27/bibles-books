@@ -1,7 +1,7 @@
 <div mat-dialog-title class="bg-current text-center">
   <p class="text-center text-lg text-primary my-auto">Documentos</p>
 </div>
-<div id="contenido" mat-dialog-content class="bg-primary h-80 w-full">
+<div id="contenido" mat-dialog-content class="bg-primary h-80 w-full overflow-hidden">
   <div class="grid grid-cols-1 gap-14 md:grid-cols-3 lg:grid-cols-4 xl:gap-x-8 p-2">
     <div *ngFor="let item of libraryService.libraryByCategory(idCategory)">
       <div class="w-full mt-6 text-center h-20">
@@ -13,7 +13,7 @@
 </div>
 <div mat-dialog-actions class="bg-current">
   <div class="flex flex-row gap-10 mx-auto">
-    <button [mat-dialog-close]="true" class="btn btn-secondary">Salir</button>
+    <button mat-dialog-close="true" class="btn btn-secondary">Salir</button>
 
     <button class="btn btn-primary" cdkFocusInitial>Descargar</button>
   </div>
