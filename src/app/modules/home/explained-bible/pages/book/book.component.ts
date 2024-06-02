@@ -2,8 +2,7 @@ import { Component, inject } from '@angular/core';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 import { ActivatedRoute, Router } from '@angular/router';
 
-import { Book } from 'src/app/core/interfaces/book';
-import { BookService } from 'src/app/core/services/book.service';
+import { Book, BookService } from 'src/app/core';
 
 @Component({
   selector: 'app-book',
@@ -36,4 +35,5 @@ export class BookComponent {
   getSafeUrl(url: string): SafeResourceUrl {
     return this.sanitizer.bypassSecurityTrustResourceUrl(url);
   }
+
 }

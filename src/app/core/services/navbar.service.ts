@@ -9,13 +9,13 @@ export class NavbarService {
   public menu: Navbar[] = [
     {
       id: 1,
-      name: 'Biblioteca',
-      route: '/library',
+      name: 'Biblia',
+      route: '/bible',
     },
     {
       id: 2,
-      name: 'Biblia',
-      route: '/bible',
+      name: 'Biblioteca',
+      route: '/library',
     },
     {
       id: 3,
@@ -26,6 +26,11 @@ export class NavbarService {
       id: 4,
       name: 'Diccionarios',
       route: '/dictionary',
+    },
+    {
+      id: 5,
+      name: 'Presentaciones',
+      route: '/presentation',
     },
   ];
 }
