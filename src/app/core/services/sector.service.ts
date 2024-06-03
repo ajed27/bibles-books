@@ -87,6 +87,14 @@ export class SectorService {
     },
   ]
 
+  getSector(id: number): Sector | null{
+    for(let i of this.sectorData){
+      if( i.id == id){
+        return i;
+      }
+    }
+    return null;
+  }
 
 
 }

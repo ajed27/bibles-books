@@ -8,7 +8,7 @@
         <img class="rounded-2xl w-11/12 mx-auto my-4 h-64" [src]="sector.url" [alt]="sector.id">
         <h2 class="card-title text-lg">{{sector.sector}}</h2>
         <p class="text-sm">{{sector.shortDescription}}</p>
-        <button class="btn rounded-md p-2 border-primary btn-warning border-2 text-amber-200 text-sm bg-emerald-900  hover:scale-110 hover:text-amber-950 transition-all">Leer más</button>
+        <button class="btn rounded-md p-2 border-primary btn-warning border-2 text-amber-200 text-sm bg-emerald-900  hover:scale-110 hover:text-amber-950 transition-all" [routerLink]="[sector.id]">Leer más</button>
       </div>
     </div>
   </div>
